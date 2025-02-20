@@ -1,0 +1,37 @@
+
+
+.colorTexto{
+    color: #fef7e1;
+}
+
+body{
+    margin: 0;
+}
+
+.cabeza{
+    display: flex;
+    background-color: #e2aa87;
+    
+}
+
+.titulo3{
+    padding-left: 100px;
+}
+
+.navegador{
+    display: flex;
+    padding-left: 1200px;
+    align-items: center;
+}
+
+
+.paginas{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.clicPagina{
+    text-decoration: none;
+}
