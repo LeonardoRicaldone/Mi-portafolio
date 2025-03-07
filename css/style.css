@@ -1,68 +1,111 @@
-
-
-.colorTexto{
-    color: #fef7e1;
+* {
+    font-family: Century Gothic;
 }
 
-body{
+.colorTexto {
+    color: #ffffff;
+}
+
+.tamano1 {
+    font-size: 40px;
+}
+
+body {
     margin: 0;
 }
 
-.cabeza{
+.cabeza {
     display: flex;
-    background-color: #e2aa87;
-    
+    background-color: #000000;
+
 }
 
-.titulo3{
+.titulo3 {
     padding-left: 100px;
 }
 
-.navegador{
+.navegador {
     display: flex;
     padding-left: 1200px;
     align-items: center;
 }
 
 
-.paginas{
+.paginas {
     text-decoration: none;
     list-style-type: none;
     padding-left: 50px;
     font-weight: bold;
 }
 
-.clicPagina{
+.clicPagina {
     text-decoration: none;
 }
 
 
 /*Main*/
-.contenedor1{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
 
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.imgMain{
-    width: 1340px;
-}
-.articulo1{
+.articulo1 {
     display: flex;
 }
 
-.caja1{
-
+.titulo1{
+    display: flex;
+    justify-content: center;
 }
 
-.imagenPerfil{
+.articuloTarjetas{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta1{
+    display: flex;
+    border: solid black 2px;
+    border-radius: 30px;
+    width: 700px;
+    margin-right: 50px;
+}
+
+.imgCarta{
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.caja1 {
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 700px;
+}
+
+.caja2 {
+    padding-top: 100px;
+}
+
+.caja3 {
+    padding-left: 150px;
+}
+
+.imgMain {
+    border-radius: 30px;
+}
+
+.imagenPerfil {
     border-radius: 50%;
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.textoFooter {
+color: #ffffff;
+padding-top: 50px;
+padding-bottom: 50px;
 }
